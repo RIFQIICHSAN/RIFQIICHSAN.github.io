@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="edit.css">
+        <meta charset="utf-8">
+        <title> My Favourite Song </title>
+    </head>
+    <body>
+        <h1>Lover Boy</h1>
+        <h2>Phum Viphurit</h2>
+
+        <ul>
+            <li>
+                <h3>PhotoBoom Singer</h3>
+                <hr>
+                <center><picture>
+                    <source media ="(max-width: 600px)" srcset="phum viphurit 2.png">
+                    <source media ="(max-width: 1200px)" srcset="phum viphurit 1.png">
+                    <img src="phum viphurit 2.png" alt="pic 2" style="width:auto;">
+                </picture></center>
+            </li>
+            <li>
+                <h3>MV Lover Boy</h3>
+                <hr>
+                <center><video controls width="400" height="200" loop autoplay muted preload="auto">
+                    <source src="video lover boy.mp4" type="video/mp4">
+                    <p>Browser tidak mendukung!, gunakan <a href="video lover boy.mp4">link</a> berikut</p>
+                    <track kind="captions" src="video lover boy.vtt" srclang="en" label="English">
+                </video></center>
+            </li>
+            <li>
+                <h3>Lover Boy Soundtrack</h3>
+                <hr>
+                <center><audio controls>
+                    <source src="audio lover boy.mp3" type="audio/mp3">
+                    <p>Browser tidak mendukung!, gunakan <a href="audio lover boy.mp3">link</a> berikut</p>
+                </audio></center>
+            </li>
+        </ul>
+        <h1 id="tanggal"></h1>
+        <script src="edit.js"></script>
+    </body>
